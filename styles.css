@@ -140,6 +140,29 @@ header img{
     background-color: var(--amarillo);
     width: 250px;
 }
+.foot img{
+    height: 50px;
+
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--azul);
+
+}
+.contact{
+    display: flex;
+}
+.foot a{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+.foot h3{
+    margin: auto 30px;
+    color: white;
+}
  
 
 
