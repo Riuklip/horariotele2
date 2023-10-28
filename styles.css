@@ -45,13 +45,17 @@ header img{
     background-color:var(--azul);
     grid-template-columns: repeat(3,1fr);
     text-align: center;
-    position: sticky;
-    top: 0;
+    
     width: 100%;
     gap: 10px;
     padding: 10px;
     color: var(--azul);
 
+}
+.sticky{
+   position: -webkit-sticky;
+   position: sticky;
+    top: 0;
 }
 .asignatura{
     display: flex;
@@ -72,41 +76,59 @@ header img{
 
 }
 .mat:hover{
+    color: white;
     background-color:var(--matem) ;
 }
 .idio:hover{
+    color: white;
     background-color: var(--idio);
 
 }
 .dig:hover{
+    color: white;
     background-color:var(--dig);
 
 }.prob:hover{
+    color: white;
     background-color:var(--prob);
 
 }.anal:hover{
+    color: white;
     background-color:var(--anal);
 
 }.circ:hover{
+    color: white;
     background-color: var(--circ);
 
 }.fis:hover{
+    color: white;
     background-color: var(--fis);
 
 }.PITE:hover{
+    color: white;
     background-color: var(--PITE);
 
+}.ef:hover{
+    color: white;
+    background-color: var(--EF);
 }
+
 .relleno{
     height: 115px;
 }
 .fila{
     display:flex;
+    color: var(--azul);
    
     
 }
 .semana9{
     width: 100%;
+    
+}
+.bast:hover{
+    background-color: red;
+    color: white;
 }
 .fila h3{
     margin:2px ;
@@ -116,6 +138,8 @@ header img{
 }
 .localiz {
     background-color: var(--amarillo);
+    width: 250px;
 }
+ 
 
 
