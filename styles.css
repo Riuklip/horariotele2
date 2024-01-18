@@ -2,15 +2,15 @@
 :root{
     --azul:#1A4167;
     --amarillo:#DFC253;
-    --matem:#4392F1;
-    --idio:#BD2D87;
+    --redes:#2CF6B3;
+    --fundament:#4392F1;
     --dig:#98CE00;
-    --prob:#F6AE2D;
     --anal:#E55934;
-    --circ:#679436;
-    --fis:#ECB0E1;
-    --EF:#2CF6B3;
-    --PITE:#C8D5B9;
+    --teor:#BD2D87;
+    --elect:#F6AE2D;
+    /* --circ:#679436; */
+    /* --fis:#ECB0E1; */
+    /* --PITE:#C8D5B9; */
 }
 *{
 
@@ -18,6 +18,24 @@
     box-sizing: border-box;
     margin: 0;
 
+}
+.backgroundred{
+    background-color:var(--redes);
+}
+.backgroundfun{
+    background-color: var(--fundament);
+}    
+.backgrounddig{
+    background-color: var(--dig);
+}
+.backgroundana{
+    background-color: var(--anal);
+}
+.backgroundteo{
+     background-color: var(--teor);
+}
+.backgroundele{
+    background-color: var(--elect);
 }
 header{
     display: flex;
@@ -36,8 +54,6 @@ header img{
     background-color:var(--amarillo) ;
     margin: 0;
 }
-
-
 .asignaturas__list{
   
     display: grid;
@@ -45,7 +61,6 @@ header img{
     background-color:var(--azul);
     grid-template-columns: repeat(3,1fr);
     text-align: center;
-    
     width: 100%;
     gap: 10px;
     padding: 10px;
@@ -75,44 +90,29 @@ header img{
     
 
 }
-.mat:hover{
-    color: white;
-    background-color:var(--matem) ;
-}
-.idio:hover{
-    color: white;
-    background-color: var(--idio);
-
+.fundament:hover{
+    background-color: var(--fundament);
 }
 .dig:hover{
-    color: white;
-    background-color:var(--dig);
-
-}.prob:hover{
-    color: white;
-    background-color:var(--prob);
-
-}.anal:hover{
-    color: white;
-    background-color:var(--anal);
-
-}.circ:hover{
-    color: white;
-    background-color: var(--circ);
-
-}.fis:hover{
-    color: white;
-    background-color: var(--fis);
-
-}.PITE:hover{
-    color: white;
-    background-color: var(--PITE);
-
-}.ef:hover{
-    color: white;
-    background-color: var(--EF);
+    background-color: var(--dig);
+    transition: 0.4s;
 }
-
+.anal:hover{
+    background-color: var(--anal);
+    transition: 0.4s;
+}
+.teor:hover{
+    background-color: var(--teor);
+    transition: 0.4s;
+}
+.elec:hover{
+    background-color: var(--elect);
+    transition: 0.4s;
+}
+.redes:hover{
+    background-color:var(--redes);
+    transition: 0.4s;
+}
 .relleno{
     height: 115px;
 }
@@ -162,6 +162,13 @@ header img{
 .foot h3{
     margin: auto 30px;
     color: white;
+}
+.asignatura button{
+    border-radius: 30px;
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    color:var(--azul);
 }
  
 
